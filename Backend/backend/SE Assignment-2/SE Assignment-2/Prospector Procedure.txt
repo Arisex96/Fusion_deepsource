@@ -1,0 +1,5 @@
+1) In VS Code create a venv and install prospector
+
+2) prospector module_views.py --output-format json > module_prospector.json
+
+3) convert json to csv and extract meaningful data

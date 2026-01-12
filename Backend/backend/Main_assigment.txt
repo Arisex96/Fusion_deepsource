@@ -1,0 +1,17 @@
+Assignment #2: Review your module's backend code on GitHub and do code-quality analysis using five LLMs and three Static Analysis Tools
+Due No Due Date Points 100 Submitting a file upload File Types xlsx
+In this assignment, your task is to review the existing backend code of the module and perform the code-issue analysis using five LLMs available in Perplexity Pro (Sonar, Gemini 3 pro, GPT 5.2, Claude Sonnet 4.5, and Deepseek (not available on Perplexity, and therefore use on the DeepSeek Interface) and three static analysis tools (Sonarqube, Deepsource, and Prospector) and report these issues in format asked. INPUT: We provide the following data for your module:
+
+1. The Prompt to be used in the five LLMs available in Perplexity Pro (Sonar, Gemini 3 pro, GPT 5.2, Claude Sonnet 4.5, and Deepseek (not available on Perplexity, and therefore use on the DeepSeek Interface). Please note that we have used an issue taxonomy (Issue Type, Issue Subtypes) for the LLM to report identified issues under the appropriate Type/SubType. However, if an identified issue doesn't belong to this taxonomy, it must be reported separately. The Prompt is included in the .zip file. (ZIP File Download ZIP File)
+
+2. The module's OLD problem statement (the statement corresponding to the existing Fusion code base) - Can be found here
+
+3. The module's backend codeLinks to an external site. from the Fusion portal.  (Path: FusionIIIT/applications/<<module_name>>/api/views.py). First, review your module's backend code and then carryout the exercise.
+
+4. The procedure documents for using the three static analysis tools (Sonarqube, Deepsource, and Prospector) separately. (Included in the .zip file)
+
+OUTPUT: You need to conduct this exercise as per the laid-down procedure and report the result of the exercise in the following (example: complaint management) Excel files (Both files included in the .zip file. Replace the file names with your module's name): 
+
+1. <Complaint Management>-Total.xlsx : This file contains eight sheets, which include five sheets for five LLM outputs, and three sheets for three static analysis tools outputs. Please provide your review comments for each issue reported.
+
+2. <Complaint Management>–Master.xlsx : This file aggregates outputs of all five LLMs and three static analysis tools in one single tabular format, indicating which issue was reported by which LLMs/Static Analysis tools. Provide your comments as applicable in the last column.

@@ -1,0 +1,34 @@
+Help me with code review analysis that I have to do for one software module of a software project with the backend in Django. 
+Assume that you are a senior code reviewer with expertise in Python (Django framework). Review the following code for any potential issues. Perform a comprehensive analysis that includes:
+**Error Handling** (Issue Subtype: Exception Handling, Generic or Uncaught Exception, Error Logging, Swallowed Exceptions, Logging & Debug Practices)
+**Security** (Issue Subtype: Authentication & Authorization, CSRF Protection, SQL Injection, Sensitive Data Exposure, File Handling & Uploads, Password Handling, Hardcoded Secrets, Direct Object References, Insecure Dependencies, Session Management)
+**Input Validation**(Issue Subtype: Missing or Incomplete Input Validation, Model or Data Validation, Input Constraints)
+**Performance**(Issue Subtype: Database Queries & Optimization, Data Retrieval Optimization, Bulk Operations, Caching, Code Efficiency, Memory & Resource Management)
+**Maintainability**(Issue Subtype: Code Duplication or Redundancy, Commented or Dead Code, Hardcoded Values or Magic Numbers, Deprecated Code, Function length & Complexity, Unused or Redundant Imports, Unused Code Elements)
+**Correctness** (Issue Subtype: Atomic Transactions, Data Comparison or Logic, Query Filtering, Business Logic & Workflow Errors, Data Consistency, Data Constraints, Variable & Scope Errors, Unimplemented Features, Improper Defaults, Serialization & Serializer Errors, Case Sensitivity, Null Handling)
+**Code Style & Structure** (Issue Subtype: Code Structure & Organization, Naming Conventions, Code Formatting, Code Readability & Modularity, Class Design, Typos & Spelling Mistakes)
+**API Design **(Issue Subtype: HTTP Methods, HTTP Status Codes, Response Format & Consistency, Pagination & Rate Limiting, Versioning, API Documentation, Use Case Coverage)
+**Testing** (Issue Subtype: Unit Tests, Test Coverage & Edge Cases)
+**Documentation** (Issue Subtype: Docstrings & Inline Documentation, General Documentation)
+**Concurrency** (Issue Subtype: Race Condition, Concurrency Handling)
+
+**Instructions**:
+For each issue found, provide:
+  - Issue Type :  Issue type from above mentioned type (error handling, security etc.)
+  - Issue Subtype : Issue subtype from above mentions subtypes (exception handling, authentication & authorization etc.)
+  - Issue Description: Short Description of the issue.
+ -  Code Snippet: Short excerpt of the relevant code.
+  - API Name: API in which the issue is identified.
+  - Line No: Approximate line number.
+  - Severity: Low, Medium, High or Critical (based on issue).
+  - Suggested Fix : How to fix the issue in short. 
+In the provided order only. 
+
+I will share with you a problem statement and backend code of the module. I want the result in semicolon separated values in csv format in a code block.
+
+If you identify any issue that does not clearly fit into the above Issue Types or Subtypes, do not force it into an incorrect category.
+Report such issues in a SEPARATE code block in the semicolon separated values in the same provided format. 
+
+# Attach your files here
+Problem Statement.txt
+views.py

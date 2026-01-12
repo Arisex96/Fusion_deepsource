@@ -1,0 +1,19 @@
+1) Starting Server
+
+cd "D:\SonarQube\sonarqube-25.6.0.109173\bin\windows-x86-64"
+
+.\StartSonar.bat 
+
+login :- admin admin
+
+2) Using Scanner
+
+cd "D:\Thesis\Final SonarQube Analysis"
+
+& "D:\SonarQube\sonar-scanner-7.1.0.4889-windows-x64\bin\sonar-scanner.bat"
+
+3) Parsing data in form of json 
+
+D:\SonarQube\sonar-scanner-7.1.0.4889-windows-x64\bin\sonar-scanner.bat > sonar_output.txt
+
+& "C:\Windows\System32\curl.exe" -u your_token: "http://localhost:9000/api/issues/search?componentKeys=module-project-key&ps=500" -o output.json

@@ -1,0 +1,15 @@
+1) upload the backend code of the module to GitHub
+
+2) create a .deepsource.toml file in the repo
+   version = 1
+
+[[analyzers]]
+name = "python"
+enabled = true
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
+3) Sync Repo in deepsource web app
+
+4) Run the analysis to get result in web app
